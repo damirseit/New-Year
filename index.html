@@ -112,7 +112,7 @@ body{
 }
  
 #quiz {
-  background-color: #34495E;
+  background-color: #C06C84;
   padding-bottom: 60px;
   width: 100%;
   border-radius: 2%;
@@ -201,7 +201,7 @@ body{
       <div class="answers"></div>         
       
       <div class="checkAnswers">
-        <h3>Correct?</h3>
+        <h3>Результат:</h3>
         <div class="checker">
  
         </div>
@@ -339,7 +339,7 @@ body{
         loadQuestion(current);
         loadAnswers(current);
       } else {
-        if(corrects >= 8){
+        if(corrects >= 16){
           questionArea.innerHTML = 'Молодец, Жанымка! Мкмкмкмк. Лови мою открыточку снизу &#10084;';
           answerArea.innerHTML = '';
           setTimeout(function() {
